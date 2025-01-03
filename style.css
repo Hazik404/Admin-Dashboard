@@ -8,34 +8,41 @@
     display: grid;
     grid-template-columns: none;
     grid-template-columns: 20% 20% 20% 20% 20%;
-  grid-template-rows: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
 
 }
 .side-bar{
     border: 5px solid red;
     background-color: aqua;
+    grid-column: 1/1;
+    grid-row: 1/span 6;
 }
 .header{
     border: 5px solid red;
     background-color: aqua;
     display: grid;
-    grid-area: 1/1/1/6;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    grid-column: 2/span 5;
 }
 .Main-Content{
-    grid-area: 2/2/2/2;
+    border: 5px solid red;
+    background-color: aqua;
+    grid-column: 2/5;
 }
 .Orders{
+    border: 5px solid red;
+    background-color: aqua;
     grid-area: 2/5/5/6;
 }
 .friends{
     grid-area: 3/5/3/6;
 }
-.sub-heading{
-    /*border: 5px solid red;*/
+.search-section{
+    grid-column: 1/span 4;
+    grid-row: 1/2;
+
 }
-.sub-heading-2{
-    /*border: 5px solid red;*/
-}
-.header{
-    /*border: 5px solid red;*/
+.greetings-section{
+    grid-row: 3/ span 6
 }
