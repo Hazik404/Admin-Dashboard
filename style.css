@@ -16,6 +16,7 @@
     background-color: aqua;
     grid-column: 1/1;
     grid-row: 1/span 6;
+    height: 1000px;
 }
 .header{
     border: 5px solid red;
@@ -34,15 +35,32 @@
     border: 5px solid red;
     background-color: aqua;
     grid-area: 2/5/5/6;
+    height: 500px;
 }
 .friends{
+    border: 5px solid red;
+    background-color: aqua;
     grid-area: 3/5/3/6;
 }
 .search-section{
-    grid-column: 1/span 4;
-    grid-row: 1/2;
-
+    grid-area: 2/ span 6;
+    width:100%;
+    display: flex;
+    background-color: chartreuse;
+    justify-content: center;
 }
 .greetings-section{
     grid-row: 3/ span 6
+}
+.Home
+{
+    display: flex;
+    align-items: center;
+    align-content: center;   
+}
+.sub-search{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    
 }
