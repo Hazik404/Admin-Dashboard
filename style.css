@@ -1,5 +1,7 @@
 * {
     box-sizing: border-box;
+    font-family: "Nunito", sans-serif;
+    font-style: normal;
   }
 .profile-pic{
     border-radius: 50%;
@@ -52,11 +54,28 @@
 .greetings-section{
     grid-row: 3/ span 6
 }
+.Home-heading{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    font-size: 10px;
+    margin-left: 15px;
+    margin-top: 10px 
+}
 .Home
 {
     display: flex;
     align-items: center;
-    align-content: center;   
+    align-content: center;
+    font-size: 10px;
+    margin-left: 30px;   
+}
+.sub-heading{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.Home h2{
+    margin-left: 20px;
 }
 .sub-search{
     display: flex;
